@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mahender – Main Websites</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #050816;
+      color: #f5f5f5;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 700px;
+      padding: 24px 18px 32px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 4px;
+    }
+    p.subtitle {
+      font-size: 14px;
+      color: #a0aec0;
+      margin-bottom: 18px;
+    }
+    .section-title {
+      font-size: 16px;
+      margin: 20px 0 10px;
+      color: #cbd5f5;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+    }
+    .card, .main-card {
+      background: #0b1020;
+      border-radius: 10px;
+      padding: 14px 16px;
+      border: 1px solid #2d3748;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+    .main-card {
+      border-color: #805ad5;
+      box-shadow: 0 0 18px rgba(128, 90, 213, 0.4);
+    }
+    .title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    .link-title {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .badge {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #2d3748;
+      color: #e2e8f0;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .badge-main {
+      background: #805ad5;
+      color: #f7fafc;
+    }
+    .link-url {
+      font-size: 11px;
+      color: #a0aec0;
+      word-break: break-all;
+    }
+    a.button {
+      margin-top: 4px;
+      font-size: 13px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #0b1020;
+      background: #f6e05e;
+      font-weight: 600;
+      text-align: center;
+      transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+      display: inline-block;
+    }
+    a.button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+      background: #faf089;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mahender – Main Websites</h1>
+      <p class="subtitle">Quick access to my main projects.</p>
+    </header>
+
+    <!-- Main website: portfolio -->
+    <section>
+      <div class="section-title">Main website</div>
+      <div class="main-card">
+        <div class="title-row">
+          <span class="link-title">Portfolio</span>
+          <span class="badge badge-main">MAIN</span>
+        </div>
+        <div class="link-url">https://mahenderkumar-12.github.io/portfolio/</div>
+        <a class="button" href="https://mahenderkumar-12.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
+          Open
+        </a>
+      </div>
+    </section>
+
+    <!-- Other two: TRADINGTOOLS + AItools -->
+    <section>
+      <div class="section-title">Other important tools</div>
+
+      <div class="card">
+        <div class="title-row">
+          <span class="link-title">TRADINGTOOLS</span>
+        </div>
+        <div class="link-url">https://mahenderkumar-12.github.io/TRADINGTOOLS/</div>
+        <a class="button" href="https://mahenderkumar-12.github.io/TRADINGTOOLS/" target="_blank" rel="noopener noreferrer">
+          Open
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="title-row">
+          <span class="link-title">AItools</span>
+        </div>
+        <div class="link-url">https://mahenderkumar-12.github.io/AItools/</div>
+        <a class="button" href="https://mahenderkumar-12.github.io/AItools/" target="_blank" rel="noopener noreferrer">
+          Open
+        </a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
